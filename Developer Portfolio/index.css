@@ -3,7 +3,7 @@
 }
 
 body {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	transition: 2s all ease;
 }
 
@@ -15,8 +15,12 @@ body {
 	background-color: white !important;	
 }
 
-#landing, #about, #projects, #contact {
-	height: calc(100vh - 50px);
+#landing {
+	height: calc(100vh - 18px);
+}
+
+#about, #projects, #contact {
+	height: 100vh;
 }
 
 .product-device {
