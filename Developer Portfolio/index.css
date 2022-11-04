@@ -23,6 +23,10 @@ body {
 	height: 100vh;
 }
 
+
+#about {
+	background-color: #000000c2 !important;
+}
 .product-device {
     position: absolute;
     right: 10%;
